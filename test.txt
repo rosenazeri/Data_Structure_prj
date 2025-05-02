@@ -1,0 +1,17 @@
+CREATE TABLE studentsRB
+CREATE TABLE students
+CREATE INDEX studentsRB
+ADD studentsRB student_number 40231016 general_course_name Physics general_course_instructor Ali general_course_score 14 core_course_name Math core_course_instructor Reza core_course_score 9
+ADD studentsRB student_number 40231012 general_course_name Physics general_course_instructor Ali general_course_score 14 core_course_name Math core_course_instructor Reza2 core_course_score 11
+ADD studentsRB student_number 40231011 general_course_name Physics general_course_instructor Ali1 general_course_score 17 core_course_name Math core_course_instructor Reza core_course_score 15
+ADD studentsRB student_number 40231015 general_course_name Physics general_course_instructor Ali general_course_score 14 core_course_name Math core_course_instructor Reza core_course_score 8
+ADD students student_number 40231016 general_course_name Physics general_course_instructor Ali3 general_course_score 14 core_course_name Math core_course_instructor Reza core_course_score 13
+ADD students student_number 40231022 general_course_name Physics general_course_instructor Ali3 general_course_score 14 core_course_name Math core_course_instructor Reza2 core_course_score 11
+ADD students student_number 40231111 general_course_name Physics general_course_instructor Ali1 general_course_score 17 core_course_name Math1 core_course_instructor Reza1 core_course_score 12
+ADD students student_number 40231025 general_course_name Physics general_course_instructor Ali1 general_course_score 14 core_course_name Math core_course_instructor Reza core_course_score 13
+DELETE students core_course_score 8
+UPDATE studentsRB general_course_name Physics Math2
+SELECT students general_course_score 14 SORTED
+SELECT studentsRB core_course_name Math SORTED
+SELECT students core_course_score 13
+SELECT studentsRB core_course_name Math
